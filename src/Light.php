@@ -29,7 +29,7 @@ class Light
             $this->serviceKey
         );
         try {
-            if (count($jsonPayload) === 0) {
+            if (count($this->jsonPayload) === 0) {
                 return $client->request('GET', $serviceUrl);
             }
 
