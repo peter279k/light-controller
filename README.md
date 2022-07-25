@@ -1,9 +1,9 @@
-# Usage
-
+# Installation
 ```bash
 composer require lee/light-controller
 ```
 
+# Usage
 ```php
 require_once './vendor/autoload.php';
 
