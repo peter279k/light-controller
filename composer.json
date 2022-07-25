@@ -1,4 +1,8 @@
 {
+    "name": "lee/light-controller",
+    "description": "The Light controller via IFTTT Webhook",
+    "type": "api",
+    "license": "MIT",
     "require": {
         "php": "^8.0",
         "guzzlehttp/guzzle": "^7.4"
@@ -7,5 +11,11 @@
         "psr-4": {
             "lee\\": "src/"
         }
-    }
+    },
+    "authors": [
+        {
+            "name": "peter279k",
+            "email": "peter279k@gmail.com"
+        }
+    ]
 }
