@@ -3,8 +3,8 @@
 namespace lee;
 
 use function sprintf;
-use Psr7\Message;
 use GuzzleHttp\Client;
+use GuzzleHttp\Psr7\Message;
 use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Exception\ClientException;
 
