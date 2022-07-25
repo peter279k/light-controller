@@ -5,7 +5,6 @@ namespace lee;
 use function sprintf;
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Message;
-use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Exception\ClientException;
 
 class Light
@@ -21,7 +20,7 @@ class Light
         $this->eventName = $eventName;
     }
 
-    public  function sendRequest(): Response
+    public  function sendRequest(): array
     {
         $client = new Client();
         $serviceUrl = sprintf('https://maker.ifttt.com/trigger/%s/json/with/key/%s',
