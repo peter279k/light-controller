@@ -20,7 +20,7 @@ class Light
         $this->eventName = $eventName;
     }
 
-    public  function sendRequest(): array
+    public  function sendRequest()
     {
         $client = new Client();
         $serviceUrl = sprintf('https://maker.ifttt.com/trigger/%s/json/with/key/%s',
